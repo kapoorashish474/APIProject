@@ -5,6 +5,7 @@
   - [Twitter API](#twitter-api)
   - [OpenAI API](#openai-api)
   - [Gemini API](#gemini-api)
+  - [Ollama API](#ollama-api)
 - [Local Setup](#local-setup)
 
 ## Features
@@ -34,6 +35,12 @@ This project demonstrates:
 * **Description**: Explore Google's cutting-edge Gemini AI API. This section will guide you through connecting to and utilizing the capabilities of the Gemini model.
 * **Key Functionality**: Utilizing Google's advanced generative AI model.
 * **Potential Use Cases**: Advanced AI applications, multimodal interactions, creative content generation.
+
+### Ollama API
+
+* **Description**: Integrate with the Ollama API to run Large Language Models (LLMs) locally or on your own infrastructure. This section demonstrates how to interact with Ollama for offline or private LLM inference.
+* **Key Functionality**: Running LLMs locally, sending prompts, and receiving AI-generated responses without relying on external cloud services.
+* **Potential Use Cases**: Private AI applications, offline LLM usage, custom model deployment, secure data processing.
 
 ## Local Setup
 
@@ -71,4 +78,5 @@ To get this project up and running on your local machine, follow these steps:
     python twitter_example.py
     python openai_example.py
     python gemini_example.py
+    python OllamaOfflineAPI/hostingLLM.md  # See this file for Ollama setup and usage instructions
     ```
